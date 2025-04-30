@@ -70,5 +70,5 @@ class DataProcessing:
 
 if __name__== "__main__":
 
-    data_pipeline= DataProcessing("Artifacts/raw/data.csv")
+    data_pipeline= DataProcessing("artifacts/raw/data.csv")
     data_pipeline.initiate_data_processing()

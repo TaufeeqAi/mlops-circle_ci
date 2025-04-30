@@ -6,7 +6,7 @@ LOGS_DIR = "logs"
 os.makedirs(LOGS_DIR, exist_ok=True)
 
 
-LOG_FILE = os.path.join(LOGS_DIR, f"log_{datetime.now().strftime('%Y-%m-%d-%H-%M_%S')}.log")
+LOG_FILE = os.path.join(LOGS_DIR, f"log_{datetime.now().strftime('%Y-%m-%d_%H_%M_%S')}.log")
 
 logging.basicConfig(
     filename=LOG_FILE,
